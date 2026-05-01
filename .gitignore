@@ -1,4 +1,18 @@
+# Build artifacts
+/build/
+*.o
+*.obj
+*.exe
+*.out
+a.out
+
+# Generated sources for compile-checks
+/.codegen-tmp/
+*.class
+bin/
+obj/
+
+# Editor / OS
 .vscode/
-build/
-build-coverage/
+.idea/
 .DS_Store
